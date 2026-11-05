@@ -2,3 +2,32 @@
   box-sizing: border-box;
 }
 
+:root {
+/* colors */
+  --black: #010101;
+  --white: #ffffff;
+
+/* fonts */
+-- font-body: ;
+-- font-display: ;
+
+/* backgrounds */
+
+/* spacing*/
+--space-xs: ;
+--space-m: ;
+--space-l: ;
+--space-xl: ;
+
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+  background-color: var(--);
+  color: var(--);
+  font-family: var(--);
+  line-height: 1;
+}
