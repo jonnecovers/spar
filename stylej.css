@@ -4,20 +4,26 @@
 
 :root {
 /* colors */
-  --black: #010101;
+  --black: #000000;
   --white: #ffffff;
+  --dagg: #F1F2EC;
+  --barr: #1F2421;
+  --tall: #2D5A3D;
+  --skott: #C3EB4A;
+  --viol: #7B5CFF;
 
 /* fonts */
--- font-body: ;
--- font-display: ;
+--font-body: "DM", sans-serif;
+--font-display: "Goldman";
 
 /* backgrounds */
 
 /* spacing*/
---space-xs: ;
---space-m: ;
---space-l: ;
---space-xl: ;
+--space-xs: 4px;
+--space-sm: 8px;
+--space-md: 16px;
+--space-lg: 32px;
+--space-xl: 64px;
 
 }
 
@@ -26,8 +32,105 @@ body {
   flex-direction: column;
   min-height: 100vh;
   margin: 0;
-  background-color: var(--);
-  color: var(--);
-  font-family: var(--);
+  background-color: var(--dagg);
+  color: var(--barr);
+  font-family: var(--font-body);
+  font-weight: 300;
   line-height: 1;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  font-family: var(--font-body);
+  font-weight: 300;
+  line-height: 1;
+}
+
+h1 {
+  font-size: calc(40rem / 16);
+}
+
+h2 {
+  font-size: calc(32rem / 16);
+}
+
+h3 {
+  font-sice: calc(14rem / 16);
+}
+
+.siteHeader {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  border-bottom: 6px solid var(--red);
+  background-color: var(--ink);
+}
+
+.siteHeader .container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-sm) var(--space-lg);
+  padding: var(--space-md) 0;
+}
+
+.logo {
+  font-family: var(--font-display);
+  font-size: calc(24rem / 16);
+  color: var(--barr);
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-lg);
+}
+
+nav a {
+  font-weight: 800;
+  font-size: calc(14rem / 16);
+  letter-spacing: 0.1em;
+  color: var(--barr);
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: var(--viol);
+}
+
+.eyebrow {}
+
+.contianer {}
+
+.eventDetails {}
+
+
+
+.button {
+  display: inline-block;
+  margin-top: var(--space-md);
+  padding: var(--space-md) var(--space-lg);
+  background-color: var(--tall);
+  color: var(--dagg);
+  font-family: var(--font-display);
+  font-size: calc(20rem / 16);
+  text-decoration: none;
+  text-transform: uppercase;
+  clip-path: polygon(
+    0 0,
+    calc(100% - 16px) 0,
+    100% 16px,
+    100% 100%,
+    16px 100%,
+    0 calc(100% - 16px)
+  );
+}
+
+.button:hover {
+  background-color: var(--skott);
 }
