@@ -54,14 +54,17 @@ main {
     background-position: center top;
     background-repeat: no-repeat;
     color: var(--dagg);
-    text-align: left;
-
-    
+    text-align: left;    
 }
 
-.hero-text {
-  margin-top: 400px;
-  margin-left: 80px;
+.container-hero {
+display: flex;
+width: 1200px;
+align-items: center;
+justify-content: space-between;
+padding: var(--space-md) 0;
+margin: 50px;
+margin-top: 50vh;
 }
 
 
@@ -93,25 +96,22 @@ h3 {
 .siteHeader {
   position: sticky;
   top: 0;
-  z-index: 100;  
-
-  /* border-bottom: 6px solid var(--red); */
+  z-index: 100; 
+  margin: 0 80px; 
 }
 
-.siteHeader .container {
+.siteHeader .container-header {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  gap: var(--space-sm) var(--space-lg);
   padding: var(--space-md) 0;
-
 }
 
 .logo {
   font-family: var(--font-display);
   font-size: calc(24rem / 16);
-  color: var(--barr);
+  color: var(--dagg);
   text-decoration: none;
   text-transform: uppercase;
 }
@@ -125,17 +125,12 @@ nav {
 nav a {
   font-weight: 800;
   font-size: calc(14rem / 16);
-  color: var(--barr);
+  color: var(--dagg);
   text-decoration: none;
 }
 
 nav a:hover {
   color: var(--viol);
-}
-
-.container {
-  /* width: min(1100px, 100% - 48px); */
-  margin: 0 80px;
 }
 
 li {
