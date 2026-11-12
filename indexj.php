@@ -17,24 +17,25 @@ require_once (__DIR__ . '/data.php');
     </head>
 
     <body>
-        <header class="siteHeader">
+        <main>
+            <header class="siteHeader">
         
-            <div class="container-header">
-                <a class="logo" href="indexj.html">SPÅR</a>
-                <nav>
-                <a href="http://localhost:8000/indexj.php">Produkter</a>
-                <a href="http://localhost:8000/indexj.php">Kategorier</a>
-                <a href="http://localhost:8000/indexj.php">Community</a>
-                <a href="http://localhost:8000/indexj.php">För organisation</a>
-                <a href="http://localhost:8000/indexj.php">Om oss</a>
-                </nav>
-                <nav>
-                <a href="checkout.html"><img src="./images/Basket_alt_3 (dagg).svg" alt="shopping cart" style="width:20px;height:20px;"></a>
-                <a href="search.html"><img src="./images/Search (dagg).svg" alt="shopping cart" style="width:20px;height:20px;"></a>
-                <a href="http://localhost:8000/indexj.php">EN / SV</a></nav>
-            </div>    
-        </header>
-        <div class="hero">
+                <div class="container-header">
+                    <a class="logo" href="indexj.html">SPÅR</a>
+                    <nav>
+                    <a href="http://localhost:8000/indexj.php">Produkter</a>
+                    <a href="http://localhost:8000/indexj.php">Kategorier</a>
+                    <a href="http://localhost:8000/indexj.php">Community</a>
+                    <a href="http://localhost:8000/indexj.php">För organisation</a>
+                    <a href="http://localhost:8000/indexj.php">Om oss</a>
+                    </nav>
+                    <nav>
+                    <a href="checkout.html"><img src="./images/Basket_alt_3 (dagg).svg" alt="shopping cart" style="width:20px;height:20px;"></a>
+                    <a href="search.html"><img src="./images/Search (dagg).svg" alt="shopping cart" style="width:20px;height:20px;"></a>
+                    <a href="http://localhost:8000/indexj.php">EN / SV</a></nav>
+                </div>    
+            </header>
+            <section class="hero">
                 <div class="container-hero">
                     <div class="hero-text">
                         <h3 class="eyebrow">LAUNCH EVENT</h3>
@@ -48,8 +49,9 @@ require_once (__DIR__ . '/data.php');
                         <a class="button" href="http://localhost:8000/indexj.php">Utforska kollektionen</a>
                     </div>
                 </div>
-        </div>
-            <section class="karusell">
+            </section>
+
+            <section class="section">
                 <div class="rubrik">
                     <h2>Varje rörelse lämnar ett spår. Låt ditt göra skillnad.</h2>
                     <h4>Vi att framtidens rörelse börjar med medvetna val. 
@@ -73,11 +75,12 @@ require_once (__DIR__ . '/data.php');
                         </div>
                         <h5><?php echo $card['text']?></h5>
                     </div>
-                    <?php ; } ?>
+                    <?php ; } 
+                    ?>
                 </div>
             </section>
 
-            <section class="karusell">
+            <section class="section">
                 <div class="rubrik">
                     <h2>Populär just nu</h2>
                     <h4>Bär spåret vidare. Flaska, keps och klocka i begränsad upplaga.</h4>
