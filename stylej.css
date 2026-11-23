@@ -14,7 +14,7 @@
 
 /* fonts */
 --font-body: "DM", sans-serif;
---font-display: "Goldman";
+--font-display: "Goldman", sans-serif;
 
 /* backgrounds */
 
@@ -24,7 +24,7 @@
 --space-sm: 25px;
 --space-md: 40px;
 --space-lg: 80px;
---space-xl: 120px;
+--space-xl: 150px;
 
 }
 
@@ -53,14 +53,14 @@ main {
     height: 120vh;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: end;
     padding: var(--space-lg);
     width: auto;
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
     color: var(--dagg);
-    text-align: left;   
+    text-align: left;
 }
 
 .container-hero {
@@ -72,35 +72,38 @@ height: auto;
 
 }
 
-h1,
-h2,
-h3 {
-  font-family: var(--font-body);
-  font-weight: 700;
-  margin: 0;
+h1, h2, h3, h4 {
+  margin: var(--space-sm) var(--space-xs);
 }
 
 h1 {
-  font-size: calc(62rem / 16);
+  font-family: var(--font-display);
+  font-size: 64px;
+  font-weight: 700;
 }
 
 h2 {
-  font-size: calc(56rem / 16);
+  font-family: var(--font-body);
+  font-size: 20px;
+  line-height: 130%;
+  font-weight: 400;
+  opacity: 75%;
 }
 
 h3 {
-  font-size: calc(20rem / 16);
+  font-family: var(--font-body);
+  font-size: 16px;
 }
 
 h4 {
+  font-family: var(--font-body);
   font-size: calc(18rem/ 16);
   font-weight: 400;
   line-height: 1.45;
-  margin: 0;
 }
 
 h3.eyebrow {
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .siteHeader {
@@ -134,8 +137,8 @@ nav {
 }
 
 nav a {
-  font-weight: 800;
-  font-size: calc(14rem / 16);
+  font-weight: 400;
+  font-size: 16px;
   color: var(--dagg);
   text-decoration: none;
   transition: all 500ms;
@@ -145,22 +148,53 @@ nav a:hover {
   color: var(--viol);
 }
 
+.search  {
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(241, 242, 236, 0.2);
+  color: var(--dagg);
+  opacity: 100%;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 130%;
+  width: 200px;
+  padding: var(--space-xxs) var(--space-xs);
+  border-radius: 50px;
+  align-items: center;
+  justify-content: space-between;
+  text-decoration: none;
+}
+
+.searchpic {
+  background-image: url(./images/Search\ \(dagg\).svg);
+  width: 20px;
+  height: 20px;
+}
+
 ul {
   padding: var(--space-sm) var(--space-md);
-  list-style-type: circle;
+  display: flex;
+  padding: 0%;
 }
 
 li {
-  display: inline-block;
-  margin-right: var(--space-xl);
-  font-size: calc(20rem / 16);
-  font-weight: 700;
+  display: flex;
+  flex-direction: row;
+  margin: var(--space-sm) var(--space-xs);
+  /* margin-right: var(--space-sm); */
+  font-size: 16px;
+  line-height: 130%;
+  font-weight: 400;
 }
 
+.hero-text {
+  width: 50vw;
+  padding-bottom: 200px;
+}
 
 .button {
   display: inline-block;
-  margin-right: var(--space-md);
+  margin-right: var(--space-sm);
   padding: var(--space-xs) var(--space-sm);
   background-color: var(--skott);
   color: var(--barr);
@@ -170,6 +204,20 @@ li {
   text-decoration: none;
   border-radius: 100px;
   /* border: 1px solid var(--dagg); */
+    transition: all 500ms;
+}
+
+.button2 {
+  display: inline-block;
+  margin-right: var(--space-md);
+  padding: var(--space-xs) var(--space-sm);
+  color: var(--dagg);
+  font-family: var(--font-body);
+  font-size: 24px;
+  font-weight: 500;
+  text-decoration: none;
+  border-radius: 100px;
+  border: 1px solid var(--dagg);
     transition: all 500ms;
 }
 
@@ -189,7 +237,7 @@ li {
   margin: var(--space-xl) 0;
   display: flex;
   flex-direction: column;
-  width: 45vw;
+  width: 50vw;
   height: auto;
   color: var(--dagg);
 
@@ -265,6 +313,25 @@ li {
   justify-content: space-between;
 }
 
+.bubble1  {
+  /* display: flex;
+  flex-direction: row; */
+  background-color: rgba(241, 242, 236, 0.12);
+  /* opacity: 65%; */
+  color: var(--dagg);
+  opacity: 100%;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 130%;
+  width: fit-content;
+  padding: var(--space-xs) var(--space-sm);
+  border-radius: 50px;
+  align-items: center;
+  gap: var(--space-xs);
+  /* border: 1px solid var(--barr); */
+
+}
+
 .bubble {
   display: flex;
   flex-direction: row;
@@ -275,7 +342,7 @@ li {
   font-weight: 400;
   line-height: 130%;
   width: fit-content;
-  padding: 0 var(--space-sm);
+  padding: var(--space-xs) var(--space-sm);
   border-radius: 50px;
   align-items: center;
   gap: var(--space-xs);

@@ -14,6 +14,12 @@ require_once (__DIR__ . '/data.php');
         />
         <link rel="stylesheet" href="stylej.css" />
         <script src="scriptj.js" defer></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
     </head>
 
     <body>
@@ -26,36 +32,39 @@ require_once (__DIR__ . '/data.php');
                     <a href="http://localhost:8000/indexj.php">Produkter</a>
                     <a href="http://localhost:8000/indexj.php">Kategorier</a>
                     <a href="http://localhost:8000/indexj.php">Community</a>
-                    <a href="http://localhost:8000/indexj.php">För organisation</a>
-                    <a href="http://localhost:8000/indexj.php">Om oss</a>
+                    <a href="http://localhost:8000/indexj.php">För Organisation</a>
+                    <a href="http://localhost:8000/indexj.php">Om Oss</a>
                     </nav>
                     <nav>
-                    <a href="checkout.html"><img src="./images/Basket_alt_3 (dagg).svg" alt="shopping cart" style="width:20px;height:20px;"></a>
-                    <a href="search.html"><img src="./images/Search (dagg).svg" alt="shopping cart" style="width:20px;height:20px;"></a>
+                        <div class="search"> 
+                            Sök
+                            <div class="searchpic"></div>
+                        </div>
+                    <a href="checkout.html"><img src="./images/Korg.svg" alt="shopping cart" style="width:20px;height:20px;"></a>
                     <a href="http://localhost:8000/indexj.php">EN / SV</a></nav>
                 </div>    
             </header>
             <section class="hero">
                 <div class="container-hero">
                     <div class="hero-text">
-                        <h4 class="eyebrow">LAUNCH EVENT</h4>
+                        <h4 class="eyebrow"> Launch event</h4>
                         <h1>Återta varja rörelse</h1>
-                        <h4>Möt REGAIN, vår innovativa proteshand som utforskar hur teknik och design kan skapa nya möjligheter i vardagen. Utvecklad med fokus på rörelsefrihet, funktion och självständighet.</h4>
+                        <h2>Möt REGAIN, vår innovativa proteshand som utforskar hur teknik och design kan skapa nya möjligheter i vardagen. Utvecklad med fokus på rörelsefrihet, funktion och självständighet.</h2>
                         <ul>
-                            <li>30.11.2026</li>
-                            <li>10:00 - 16:00</li>
-                            <li>Mässans Gata, Göteborg</li>
+                            <li class="bubble1" >30.11.2026</li>
+                            <li class="bubble1">10:00 - 16:00</li>
+                            <li class="bubble1">Mässans Gata, Göteborg</li>
                         </ul>
                         <a class="button" href="http://localhost:8000/indexj.php">Anmäl dig till eventet</a>
-                        <a class="button" href="http://localhost:8000/indexj.php">Utforska REGAIN</a>
+                        <a class="button2" href="http://localhost:8000/indexj.php">Utforska REGAIN</a>
                     </div>
                 </div>
             </section>
 
             <section class="section1">
                 <div class="rubrik1">
-                    <h2>Vad driver oss framåt?</h2>
-                    <h4>Bakom SPÅR finns en historia om rörelse, gemenskap och viljan att förändra. Upptäck idéerna, människorna och visionen som driver oss framåt.</h4>
+                    <h1>Vad driver oss framåt?</h1>
+                    <h2>Bakom SPÅR finns en historia om rörelse, gemenskap och viljan att förändra. Upptäck idéerna, människorna och visionen som driver oss framåt.</h2>
                 </div>
             
                 <div class="container-karusell">
@@ -81,7 +90,7 @@ require_once (__DIR__ . '/data.php');
 
             <section class="section">
                 <div class="rubrik">
-                    <h2>Våra bästsäljare</h2>
+                    <h1>Våra bästsäljare</h1>
                     <h4>Bär spåret vidare. Skor, klocka och huvdvårdskit.</h4>
                 </div>
                 <article class="container-popular">
