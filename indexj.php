@@ -48,7 +48,7 @@ require_once (__DIR__ . '/data.php');
                 <div class="container-hero">
                     <div class="hero-text">
                         <h4 class="eyebrow"> Launch event</h4>
-                        <h1>Återta varja rörelse</h1>
+                        <h1>Återta varje rörelse</h1>
                         <h2>Möt REGAIN, vår innovativa proteshand som utforskar hur teknik och design kan skapa nya möjligheter i vardagen. Utvecklad med fokus på rörelsefrihet, funktion och självständighet.</h2>
                         <ul>
                             <li class="bubble1" ><img src="./images/Kalender.svg"alt="icon"> 30.11.2026</li>
@@ -89,64 +89,39 @@ require_once (__DIR__ . '/data.php');
             </section>
 
             <section class="section">
-                <div class="rubrik">
-                    <h1>Våra bästsäljare</h1>
-                    <h4>Bär spåret vidare. Skor, klocka och huvdvårdskit.</h4>
-                </div>
-                <article class="container-popular">
-                    <div class="main-product"></div>
-                    <div class="info">
-                        <div class="points">
-                            <h3>ADIZERO EVO SL ATR SKOR</h3>
-                        </div>
-                        <div class="points">
-                                <h4>Skor med LIGHTSTRIKE PRO-dämpning för lättviktsrörelser och snabbhet på nästa nivå.</h4>
-                        </div>
-                        <div class="points">
-                            <div class="bullet"></div>
-                            <div class="point">
-                                <h3>SPÅRCELL-sula</h3>
-                                <h4>Algpolymer som minns kroppens tryck</h4>
-                            </div>
-                        </div>
-                        <div class="points">
-                            <div class="bullet"></div>
-                            <div>
-                                <h3>Adaptiv stängning</h3>
-                                <h4>Magnet + dragögla - en hand räcker</h4>
-                            </div>
-                        </div>
-                        <div class="points">
-                            <div class="bullet"></div>
-                            <div>
-                                <h3>Återvunnet material</h3>
-                                <h4>80 % återvunnen ovandel</h4>
-                            </div>
-                        </div>
-                        <div class="info">
-                            <h3>Storlekar</h3>
-                            <div class="sizes">
-                                <div class="size"><h4>36</h4></div>
-                                <div class="size"><h4>37</h4></div>
-                                <div class="size"><h4>38</h4></div>
-                                <div class="size"><h4>39</h4></div>
-                                <div class="size"><h4>40</h4></div>
-                                <div class="size"><h4>41</h4></div>
-                            </div>
-
-                            <div class="sizes">
-                                <div class="size"><h4>42</h4></div>
-                                <div class="size"><h4>43</h4></div>
-                                <div class="size"><h4>44</h4></div>
-                                <div class="size"><h4>45</h4></div>
-                                <div class="size"><h4>46</h4></div>
-                                <div class="size"><h4>47</h4></div>
-                            </div>
-                        </div>
+                <article class="rubrikLine">
+                    <div class="rubrik">
+                        <h1>Våra bästsäljare</h1>
+                        <h2>Bär spåret vidare. Skor, klocka och huvdvårdskit.</h2>
                     </div>
+                    <div>
+                        <a class="buttonSeeMore" href="http://localhost:8000/indexj.php">Utforska alla produkter</a>
+                    </div>
+               </article> 
+
+
+                <article class="container-popular">
+                    <?php
+
+                    foreach ($populars as $popular) {
+                        ?>
+                    
+
+                    <div class="cardPopular">
+                            <div class="containerImg">
+                                <div class="imgPopular"><img src=" <?php echo $popular['img'] ?>" alt="shopping cart" style="width:auto;height:400px;"></div>
+                            </div>
+                            <div class="namePrice">
+                                <h4><?php echo $popular['name']?></h4>
+                                <h2><?php echo $popular['price']?></h2>
+                            </div>
+                            <h2><?php echo $popular['text']?></h2>
+                            <a class="button" href="http://localhost:8000/indexj.php">Lägg till i varukorgen</a>
+                    </div>
+
+                    <?php } ; ?>
                 </article>
             </section>
-
 
         </main>
     </body>

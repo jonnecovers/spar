@@ -36,3 +36,27 @@ $cards = [
     'icon' => './images/Innovation.svg'
     ]
 ];
+
+$populars = [
+    [
+    'name' => 'Steady Run 01',
+    'text' => 'Built to keep going',
+    'img' => './images/949882a566fac47f2e09af635fc178f96fef150b.png',
+    'price' => '1399 kr'
+    ],
+
+    [
+    'name' => 'Steady Watch 01',
+    'text' => 'Every step, on track',
+    'img' => './images/watch.png',
+    'price' => '1399 kr'
+    ],
+
+    [
+    'name' => 'Steady Care 01',
+    'text' => 'Skin that keeps up',
+    'img' => './images/care.png',
+    'price' => '1399 kr'
+    ]
+
+];
