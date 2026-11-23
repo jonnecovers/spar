@@ -123,6 +123,42 @@ require_once (__DIR__ . '/data.php');
                 </article>
             </section>
 
+
+            <section class="section">
+                <article class="rubrikLine">
+                    <div class="rubrik">
+                        <h1>Community-merch</h1>
+                        <h2>Bär spåret vidare. Klocka, flaska och kroppslotion i begränsad upplaga.</h2>
+                    </div>
+                    <div>
+                        <a class="buttonSeeMore" href="http://localhost:8000/indexj.php">Utforska alla produkter</a>
+                    </div>
+               </article> 
+
+
+                <article class="container-popular">
+                    <?php
+
+                    foreach ($merches as $merch) {
+                        ?>
+                    
+
+                    <div class="cardPopular">
+                            <div class="containerImg">
+                                <div class="imgPopular"><img src=" <?php echo $merch['img'] ?>" alt="shopping cart" style="width:auto;height:400px;"></div>
+                            </div>
+                            <div class="namePrice">
+                                <h4><?php echo $merch['name']?></h4>
+                                <h2><?php echo $merch['price']?></h2>
+                            </div>
+                            <h2><?php echo $merch['text']?></h2>
+                            <a class="button" href="http://localhost:8000/indexj.php">Lägg till i varukorgen</a>
+                    </div>
+
+                    <?php } ; ?>
+                </article>
+            </section>
+
         </main>
     </body>
 </html>

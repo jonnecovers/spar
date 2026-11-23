@@ -424,9 +424,11 @@ h5 {
 .container-popular {
   display: flex;
   flex-direction: row;
+  overflow-x: scroll;
+  width: 100%;
   justify-content: space-between;
-  flex-wrap: wrap;
-  gap: var(--space-lg);
+  /* flex-wrap: wrap; */
+  gap: var(--space-md);
   margin-top: var(--space-md);
   margin-bottom: var(--space-md);
 }
@@ -446,12 +448,10 @@ h5 {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+
 }
 
 .imgPopular {
-  /* width: 400px;
-  height: 400px; */
-  /* background-image: url(./images/949882a566fac47f2e09af635fc178f96fef150b.png); */
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;

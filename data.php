@@ -60,3 +60,27 @@ $populars = [
     ]
 
 ];
+
+$merches = [
+    [
+    'name' => 'SPÅR Klocka',
+    'text' => 'Smartklocka som följer puls, steg och dina träningspass',
+    'img' => './images/klocka.png',
+    'price' => '299 kr'
+    ],
+
+    [
+    'name' => 'SPÅR Flaska',
+    'text' => 'Återvunnet rostfritt stål med bärögla (500 ml)',
+    'img' => './images/flaska.png',
+    'price' => '349 kr'
+    ],
+
+    [
+    'name' => 'SPÅR Kroppslotion',
+    'text' => 'Återfuktande lotion för huden efter träningen',
+    'img' => './images/lotion.png',
+    'price' => '199 kr'
+    ]
+
+];
