@@ -51,9 +51,9 @@ require_once (__DIR__ . '/data.php');
                         <h1>Återta varja rörelse</h1>
                         <h2>Möt REGAIN, vår innovativa proteshand som utforskar hur teknik och design kan skapa nya möjligheter i vardagen. Utvecklad med fokus på rörelsefrihet, funktion och självständighet.</h2>
                         <ul>
-                            <li class="bubble1" >30.11.2026</li>
-                            <li class="bubble1">10:00 - 16:00</li>
-                            <li class="bubble1">Mässans Gata, Göteborg</li>
+                            <li class="bubble1" ><img src="./images/Kalender.svg"alt="icon"> 30.11.2026</li>
+                            <li class="bubble1"><img src="./images/Group 16.svg"alt="icon">10:00 - 16:00</li>
+                            <li class="bubble1"><img src="./images/Group 1.svg"alt="icon">Mässans Gata, Göteborg</li>
                         </ul>
                         <a class="button" href="http://localhost:8000/indexj.php">Anmäl dig till eventet</a>
                         <a class="button2" href="http://localhost:8000/indexj.php">Utforska REGAIN</a>
@@ -74,12 +74,12 @@ require_once (__DIR__ . '/data.php');
                     <div class="card">
                          <div class="bubbles">
                             <div class="bubble">
-                                <div class="plupp"></div>
-                                    <p><?php echo $card['name']?></p>
-                                    </div>
-                                    <div class="bubbleround">
-                                        <div class="plus"></div>
-                                    </div>
+                                <img src="<?php echo $card['icon']; ?>"alt="icon">
+                                <p><?php echo $card['name']?></p>
+                            </div>
+                            <div class="bubbleround">
+                                <div class="plus"></div>
+                            </div>
                         </div>
                         <h5><?php echo $card['text']?></h5>
                     </div>

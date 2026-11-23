@@ -12,7 +12,7 @@ $cards = [
     'name' => 'Hållbarhet',
     'text' => 'Framtidens material börjar med dagens val',
     'img' => './images/bild2.png',
-    'icon' => '.images/Hållbarhet.svg'
+    'icon' => './images/Hallbarthet.svg'
     ],
 
     [
@@ -30,8 +30,9 @@ $cards = [
     ],
     
     [
-    'name' => 'Rörelse',
-    'text' => 'Vad händer när passion för rörelse möter viljan att förändra?',
-    'img' => './images/bild2.png'
+    'name' => 'Framtid',
+    'text' => 'Vi har bara tagit det första steget',
+    'img' => './images/Framtid.png',
+    'icon' => './images/Innovation.svg'
     ]
 ];
