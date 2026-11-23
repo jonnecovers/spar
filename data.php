@@ -3,26 +3,30 @@
 $cards = [
     [
     'name' => 'Ursprung',
-    'text' => 'Hur en enkel tanke blev starten på Spårs resa mot framtiden.',
-    'img' => './images/bild1.png'
+    'text' => 'En fråga som blev början på SPÅR',
+    'img' => './images/bild1.png',
+    'icon' => './images/Ursprung.svg'
     ],
 
     [
-    'name' => 'Rörelse',
-    'text' => 'Vad händer när passion för rörelse möter viljan att förändra?',
-    'img' => './images/bild2.png'
+    'name' => 'Hållbarhet',
+    'text' => 'Framtidens material börjar med dagens val',
+    'img' => './images/bild2.png',
+    'icon' => '.images/Hållbarhet.svg'
     ],
 
     [
-    'name' => 'Utveckling',
-    'text' => 'Från en enkel fråga till en vision om framtidens rörelse.',
-    'img' => './images/bild3.png'
+    'name' => 'Community',
+    'text' => 'Det bästa med rörelse är att dela den',
+    'img' => './images/bild3.png',
+    'icon' => './images/Community.svg'
     ],
     
     [
-    'name' => 'Inovation',
-    'text' => 'Allt började med en fråga: Kan vi förändra framtidens rörelse?',
-    'img' => './images/bild4.jpg'
+    'name' => 'Innovation',
+    'text' => 'När tekniken utgår från människan',
+    'img' => './images/bild4.jpg',
+    'icon' => './images/Innovation.svg'
     ],
     
     [

@@ -38,25 +38,24 @@ require_once (__DIR__ . '/data.php');
             <section class="hero">
                 <div class="container-hero">
                     <div class="hero-text">
-                        <h3 class="eyebrow">LAUNCH EVENT</h3>
-                        <h1>Upplev nästa steg tillsammans</h1>
+                        <h4 class="eyebrow">LAUNCH EVENT</h4>
+                        <h1>Återta varja rörelse</h1>
+                        <h4>Möt REGAIN, vår innovativa proteshand som utforskar hur teknik och design kan skapa nya möjligheter i vardagen. Utvecklad med fokus på rörelsefrihet, funktion och självständighet.</h4>
                         <ul>
-                            <li>&bull; 30.11.2026</li>
-                            <li>&bull; 10:00-16:00</li>
-                            <li>&bull; möt teamet</li>
+                            <li>30.11.2026</li>
+                            <li>10:00 - 16:00</li>
+                            <li>Mässans Gata, Göteborg</li>
                         </ul>
                         <a class="button" href="http://localhost:8000/indexj.php">Anmäl dig till eventet</a>
-                        <a class="button" href="http://localhost:8000/indexj.php">Utforska kollektionen</a>
+                        <a class="button" href="http://localhost:8000/indexj.php">Utforska REGAIN</a>
                     </div>
                 </div>
             </section>
 
-            <section class="section">
-                <div class="rubrik">
-                    <h2>Varje rörelse lämnar ett spår. Låt ditt göra skillnad.</h2>
-                    <h4>Vi att framtidens rörelse börjar med medvetna val. 
-                        Genom att förena innovativ teknik, funktionell design och hållbarhet 
-                        vill vi skapa produkter som hjälper dig att utvecklas, på dina egna villkor.</h4>
+            <section class="section1">
+                <div class="rubrik1">
+                    <h2>Vad driver oss framåt?</h2>
+                    <h4>Bakom SPÅR finns en historia om rörelse, gemenskap och viljan att förändra. Upptäck idéerna, människorna och visionen som driver oss framåt.</h4>
                 </div>
             
                 <div class="container-karusell">
@@ -82,8 +81,8 @@ require_once (__DIR__ . '/data.php');
 
             <section class="section">
                 <div class="rubrik">
-                    <h2>Populär just nu</h2>
-                    <h4>Bär spåret vidare. Flaska, keps och klocka i begränsad upplaga.</h4>
+                    <h2>Våra bästsäljare</h2>
+                    <h4>Bär spåret vidare. Skor, klocka och huvdvårdskit.</h4>
                 </div>
                 <article class="container-popular">
                     <div class="main-product"></div>
