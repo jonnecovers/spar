@@ -598,3 +598,136 @@ button {
   transition: all 500ms;
   width: fit-content;
 }
+
+
+@media (max-width: 700px) {
+
+  :root {
+  --space-xxs: 1px;
+  --space-xs: 5px;
+  --space-s: 10px;
+  --space-sm: 15px;
+  --space-md: 20px;
+  --space-lg: 40px;
+  --space-xl: 80px;
+  }
+
+  nav a {
+    display: none;
+  }
+
+  .search {
+    width: 40px;
+    font-size: 0;
+  }
+
+  h1 {
+    font-size: 32px;
+  }
+
+  h2 {
+    font-size: 14px;
+  }
+
+  h3 {
+    font-size: 14px;
+  }
+
+  h4 {
+    font-size: 16px;
+    font-family: var(--font-body);
+  }
+
+  h5 {
+    font-size: 14px;
+  }
+
+  .container-hero {
+    display: flex;
+    width: auto;
+    height: auto;
+    }
+
+  .button {
+    font-size: 14px;
+  }  
+
+  .button2 {
+    font-size: 14px;
+  }
+
+  .bubble1 {
+    font-size: 12px;
+  }
+
+  .hero-text {  
+    width: 400px;
+    padding-bottom: var(--space-xl);
+  }
+
+  .rubrik1 {
+    width: 400px;
+  }
+
+  .rubrik {
+    width: 400px;
+  }
+
+  .buttonSeeMore {
+    font-size: 12px;
+  }
+
+  .card {
+    min-width: 300px;
+    height: 400px;
+    padding: 15px 15px 20px 15px
+  }
+
+  .storyCard { 
+    min-width: 300px;
+    height: 400px;
+}
+
+  .footer1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    flex-wrap: wrap;
+    margin-bottom: var(--space-lg);
+  }
+
+  .footerText {
+    width: 400px;
+  }
+
+  form {
+  display: flex;
+  flex-direction: column;
+}
+
+input[type=email], select {
+  width: 200px;
+  padding: var(--space-s) var(--space-sm);
+  border-radius: 100px;
+  font-family: var(--font-body);
+  font-size: 12px;
+  font-weight: 300;
+  color: rgb(126, 122, 122);
+  margin-bottom: var(--space-xs);
+}
+
+button {
+  font-size: 12px;
+  font-weight: 300;
+
+}
+
+.footer2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: var(--space-md);
+}
+
+}

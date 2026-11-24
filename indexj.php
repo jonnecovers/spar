@@ -35,13 +35,14 @@ require_once (__DIR__ . '/data.php');
                     <a href="http://localhost:8000/indexj.php">För Organisation</a>
                     <a href="http://localhost:8000/indexj.php">Om Oss</a>
                     </nav>
-                    <nav>
+                    <nav class="mute">
                         <div class="search"> 
                             Sök
                             <div class="searchpic"></div>
                         </div>
                     <a href="checkout.html"><img src="./images/Korg.svg" alt="shopping cart" style="width:20px;height:20px;"></a>
-                    <a href="http://localhost:8000/indexj.php">EN / SV</a></nav>
+                    <a href="http://localhost:8000/indexj.php">EN / SV</a>
+                    </nav>
                 </div>    
             </header>
             <section class="hero">
