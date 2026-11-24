@@ -47,7 +47,7 @@ require_once (__DIR__ . '/data.php');
             <section class="hero">
                 <div class="container-hero">
                     <div class="hero-text">
-                        <h4 class="eyebrow"> Launch event</h4>
+                        <h5>Launch event</h5>
                         <h1>Återta varje rörelse</h1>
                         <h2>Möt REGAIN, vår innovativa proteshand som utforskar hur teknik och design kan skapa nya möjligheter i vardagen. Utvecklad med fokus på rörelsefrihet, funktion och självständighet.</h2>
                         <ul>
@@ -144,19 +144,52 @@ require_once (__DIR__ . '/data.php');
                     
 
                     <div class="cardPopular">
-                            <div class="containerImg">
-                                <div class="imgPopular"><img src=" <?php echo $merch['img'] ?>" alt="shopping cart" style="width:auto;height:400px;"></div>
+                            <div class="containerImgMerch">
+                                <div class="imgMerch">
+                                    <div class="imageMerch"><img src=" <?php echo $merch['img'] ?>" alt="shopping cart" style="width:auto;height:441px;"></div>
+                                    <div class="heart"><img src="./images/Heart.svg"></div>
+                                </div>
                             </div>
                             <div class="namePrice">
-                                <h4><?php echo $merch['name']?></h4>
+                                <h2><?php echo $merch['name']?></h2>
                                 <h2><?php echo $merch['price']?></h2>
                             </div>
-                            <h2><?php echo $merch['text']?></h2>
+                            <h3><?php echo $merch['text']?></h3>
                             <a class="button" href="http://localhost:8000/indexj.php">Lägg till i varukorgen</a>
                     </div>
 
                     <?php } ; ?>
                 </article>
+            </section>
+
+            <section class="section">
+                <div class="rubrik">
+                    <h1>Inne hos Spår</h1>
+                    <h2>Berättelser om människorna, tekniken och idéerna bakom Spår.</h2>
+                </div>
+            
+                <div class="container-karusell">
+
+                    <?php
+                    foreach ($stories as $story) {
+                    ?>
+
+                    <article class="storyCard">
+                        <div class="storyImg">
+                            <div><img src=" <?php echo $story['img'] ?>" alt="story image" style="width:400px;height:200px;"></div>
+                        </div>
+                        <div class="storyText">
+                            
+                            <div><?php echo $story['text']?></div>
+                            <div class="category"><?php echo $story['category']?></div>
+                        </div>
+                        <div class="time"><?php echo $story['time']?></div>
+                    </article>
+
+                    <?php ; } 
+                    ?>
+
+                </div>
             </section>
 
         </main>

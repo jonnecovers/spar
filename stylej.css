@@ -94,6 +94,7 @@ h2 {
 h3 {
   font-family: var(--font-body);
   font-size: 16px;
+  font-weight: 400;
 }
 
 h4 {
@@ -103,8 +104,10 @@ h4 {
   line-height: 1;
 }
 
-h3.eyebrow {
+h5 {
+  font-size: 20px;
   font-weight: 400;
+  margin: 0;
 }
 
 .siteHeader {
@@ -380,12 +383,6 @@ li {
   background-image: url(./images/Hållbarthet.svg);
 }
 
-h5 {
-  font-size: calc(26rem / 16);
-  font-weight: 300;
-  margin: 0;
-}
-
 
 
 .section {
@@ -464,4 +461,71 @@ h5 {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.imgMerch {
+  position: relative;
+  overflow: hidden;
+}
+
+.imageMerch {
+  transition: all 300ms ease;
+}
+
+.imageMerch:hover {
+  transform: scale(1.1);
+}
+.heart{
+  position: absolute;
+  top: 25px;
+  right: 25px;
+}
+
+.storyCard {
+  width: 400px;
+  color: var(--barr);
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  min-width: 400px;
+  height: 500px;
+  /* padding: 25px 25px 35px 25px; */
+  border-radius: 10px;
+  /* border: 1px solid var(--barr); */
+  transition: all 500ms ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.storyImg {
+  display: flex;
+  width: auto;
+  height: 200px;
+  position: absolute;
+  top: 0;
+}
+
+.storyText {
+  position: absolute;
+  top: 200px;
+  padding: var(--space-sm);
+  font-size: 32px;
+  font-weight: 300;
+  color: var(--barr);
+}
+
+.category {
+  font-size: 12px;
+  margin-top: var(--space-xs);
+}
+
+.time {
+  background-color: #bfc6c1;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 50px;
+  padding: var(--space-xxs) var(--space-xs);
+  margin: var(--space-sm);
+  font-size: 12px;
 }

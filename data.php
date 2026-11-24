@@ -84,3 +84,41 @@ $merches = [
     ]
 
 ];
+
+
+$stories = [
+    [
+    'category' => 'Community',
+    'text' => 'Ett steg i taget, tillsammans',
+    'img' => './images/story1.png',
+    'time' => '3 min lästid'
+    ],
+
+    [
+    'category' => 'Teknik',
+    'text' => 'Kan en handske förändra en vardag?',
+    'img' => './images/story2.png',
+    'time' => '10 min lästid'
+    ],
+
+    [
+    'category' => 'Material',
+    'text' => 'Vi reste för att upptäcka framtidens textilier',
+    'img' => './images/story3.png',
+    'time' => '6 min lästid'
+    ],
+
+    [
+    'category' => 'Ursprung',
+    'text' => 'Allt började med en fråga',
+    'img' => './images/story4.png',
+    'time' => '5 min lästid'
+    ],    
+
+    [
+    'category' => 'Hållbarhet',
+    'text' => 'Vad händer när ett material får en andra chans?',
+    'img' => './images/story5.png',
+    'time' => '5 min lästid'
+    ], 
+];
