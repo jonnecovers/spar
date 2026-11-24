@@ -191,7 +191,68 @@ require_once (__DIR__ . '/data.php');
 
                 </div>
             </section>
-
         </main>
+        
+        <footer class="footerContainer">
+                <div class="footer1">
+                    <div class="footerText">
+                        <h1>Var först att lämna ett spår.</h1>
+                        <h2>Nyheter om lanseringen – inget spam.</h2>
+                    </div>
+                    <div>
+                        <a class="button" href="http://localhost:8000/indexj.php">Få early access</a>
+                    </div>
+                </div>
+                
+                
+                <div class="footer2">
+                    <div class="footerText">
+                        <h1>SPÅR</h1>
+                        <h2>Adaptiv sport för alla kroppar.</h2>
+                    </div>
+                    <div class="footerList">
+                        <h2 id="head">Shop</h2>
+                        <h2>Spår Glid</h2>
+                        <h2>Kategorier</h2>
+                        <h2>Merch</h2>
+                        <h2>Kommande</h2>
+                    </div>
+                    
+                    <div class="footerList">
+                        <h2 id="head">Om SPÅR</h2>
+                        <h2>Vår historia</h2>
+                        <h2>Stories</h2>
+                        <h2>Hållbarhet</h2>
+                        <h2>Press</h2>
+                    </div>
+                    
+                    <div class="footerList">
+                        <h2 id="head">Följ oss</h2>
+                        <h2>Instagram</h2>
+                        <h2>TikTok</h2>
+                        <h2>Youtube</h2>
+                        <h2></h2>
+                    </div>
+                    
+                    <div class="footerList">
+                        <h2 id="head" >Hjälp</h2>
+                        <h2>Kontakt</h2>
+                        <h2>Storleksguide</h2>
+                        <h2>Tillgänglighet</h2>
+                        <h2>FAQ</h2>
+                    </div>
+                    
+                </div>
+                
+                <div class="line"></div>
+                
+                
+                <div class="footer2">
+                    <h2>&copy 2026 SPAR</h2>
+                    <h2>Integritet · Cookies · SV / EN</h2>
+                </div>
+                    
+                    
+        </footer>
     </body>
 </html>
