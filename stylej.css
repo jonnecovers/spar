@@ -21,6 +21,7 @@
 /* spacing*/
 --space-xxs: 5px;
 --space-xs: 10px;
+--space-s: 15px;
 --space-sm: 25px;
 --space-md: 40px;
 --space-lg: 80px;
@@ -201,7 +202,7 @@ li {
 .button {
   display: inline-block;
   margin-right: var(--space-sm);
-  padding: var(--space-xs) var(--space-sm);
+  padding: var(--space-s) var(--space-sm);
   background-color: var(--skott);
   color: var(--barr);
   font-family: var(--font-body);
@@ -222,7 +223,7 @@ li {
 .button2 {
   display: inline-block;
   margin-right: var(--space-md);
-  padding: var(--space-xs) var(--space-sm);
+  padding: var(--space-s) var(--space-sm);
   color: var(--dagg);
   font-family: var(--font-body);
   font-size: 24px;
@@ -294,7 +295,7 @@ li {
   
 }
 
-.card:hover {
+/* .card:hover {
   background-color: var(--dagg);
   background-image: none;
   color: var(--barr);
@@ -304,7 +305,7 @@ li {
   height: 300px;
   padding: 25px 25px 35px 25px;
   justify-items: baseline;
-}
+} */
 
 .bubbles {
   display: flex;
@@ -356,9 +357,9 @@ li {
   transition: all 500ms;
 }
 
-.bubbleround:hover {
+/* .bubbleround:hover {
   background-color: var(--viol);
-}
+} */
 
 .plus {
   background-image:url(./images/plus.svg);
@@ -452,6 +453,11 @@ li {
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
+  transition: all 300ms ease;
+}
+
+.imgPopular:hover {
+  transform: scale(1.1);
 }
 
 .containerImg {
@@ -502,8 +508,9 @@ li {
   height: 200px;
   position: absolute;
   top: 0;
-}
+  transition: all 500ms ease;
 
+}
 .storyText {
   position: absolute;
   top: 200px;
@@ -511,6 +518,7 @@ li {
   font-size: 32px;
   font-weight: 300;
   color: var(--barr);
+  transition: all 500ms ease;
 }
 
 .category {
@@ -526,6 +534,31 @@ li {
   padding: var(--space-xxs) var(--space-xs);
   margin: var(--space-sm);
   font-size: 12px;
+  transition: all 500ms ease;
+}
+
+.story {
+  opacity: 0;
+  transition: all 500ms ease;
+  margin-top: var(--space-s);
+  line-height: 1.5;
+}
+
+.storyCard:hover .storyImg{
+  top: -200px;
+}
+
+.storyCard:hover .storyText {
+  top: var(--space-md);
+}
+
+.storyCard:hover .time {
+  background-color: var(--barr);
+  color: var(--dagg);
+}
+
+.storyCard:hover .story {
+  opacity: 50%;
 }
 
 .footerContainer {
@@ -557,6 +590,13 @@ li {
   margin-bottom: var(--space-md);
 }
 
+.footer3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
 #head {
   opacity: 100%;
 }
@@ -567,4 +607,35 @@ li {
   margin: var(--space-md) 0;
   margin-bottom: var(--space-lg);
 
+}
+
+form {
+  display: flex;
+  flex-direction: row;
+  justify-items: right;
+
+}
+
+input[type=email], select {
+  width: 350px;
+  padding: var(--space-s) var(--space-sm);
+  border-radius: 100px;
+  font-family: var(--font-body);
+  font-size: 20px;
+  font-weight: 400;
+  color: rgb(126, 122, 122);
+  margin-right: var(--space-xs);
+}
+
+button {
+  padding: var(--space-s) var(--space-sm);
+  background-color: var(--skott);
+  color: var(--barr);
+  font-family: var(--font-body);
+  font-size: 20px;
+  font-weight: 400;
+  text-decoration: none;
+  border-radius: 100px;
+  transition: all 500ms;
+  width: fit-content;
 }

@@ -174,17 +174,18 @@ require_once (__DIR__ . '/data.php');
                     foreach ($stories as $story) {
                     ?>
 
-                    <article class="storyCard">
+                    <div class="storyCard">
                         <div class="storyImg">
-                            <div><img src=" <?php echo $story['img'] ?>" alt="story image" style="width:400px;height:200px;"></div>
+                            <div><img src=" <?php echo $story['img'] ?>" alt="story image"></div>
                         </div>
                         <div class="storyText">
                             
                             <div><?php echo $story['text']?></div>
                             <div class="category"><?php echo $story['category']?></div>
+                            <div class="story"><h3><?php echo $story['story']?></h3></div>
                         </div>
                         <div class="time"><?php echo $story['time']?></div>
-                    </article>
+                    </div>
 
                     <?php ; } 
                     ?>
@@ -197,11 +198,22 @@ require_once (__DIR__ . '/data.php');
                 <div class="footer1">
                     <div class="footerText">
                         <h1>Var först att lämna ett spår.</h1>
-                        <h2>Nyheter om lanseringen – inget spam.</h2>
+                        <h2>Nyheter om lanseringen - inget spam.</h2>
                     </div>
-                    <div>
-                        <a class="button" href="http://localhost:8000/indexj.php">Få early access</a>
+
+                    <div class="formContainer">
+                        <form action="post.php" method="post">
+                                <div>
+                                    <label for="email"></label>
+                                    <input type="email" name="email" value="Din e-postadress">
+                                </div>
+
+                                <div>
+                                    <button type="submit">Få early access</button>
+                                </div>
+                        </form>
                     </div>
+
                 </div>
                 
                 
@@ -247,7 +259,7 @@ require_once (__DIR__ . '/data.php');
                 <div class="line"></div>
                 
                 
-                <div class="footer2">
+                <div class="footer3">
                     <h2>&copy 2026 SPAR</h2>
                     <h2>Integritet · Cookies · SV / EN</h2>
                 </div>
