@@ -16,8 +16,6 @@
 --font-body: "DM", sans-serif;
 --font-display: "Goldman", sans-serif;
 
-/* backgrounds */
-
 /* spacing*/
 --space-xxs: 5px;
 --space-xs: 10px;
@@ -26,7 +24,6 @@
 --space-md: 40px;
 --space-lg: 80px;
 --space-xl: 120px;
-
 }
 
 body {
@@ -68,13 +65,9 @@ main {
 display: flex;
 width: 1200px;
 height: auto;
-
-/* margin-top: 250px; */
-
 }
 
 h1, h2, h3, h4 {
-  /* margin: var(--space-sm) var(--space-xs); */
   margin: 0;
 }
 
@@ -115,9 +108,7 @@ h5 {
   position: fixed;
   width: 100vw;
   top: 0;
-  z-index: 100; 
-
-  
+  z-index: 100;
 }
 
 .siteHeader .container-header {
@@ -240,23 +231,18 @@ li {
 
 
 .section1 {
-  /* margin: var(--space-xl) var(--space-lg); */
   background: linear-gradient(var(--black) 30%, #F1F2EC);
   opacity: 93%;
   padding-left: var(--space-lg);
 
 }
 .rubrik1 {
-  /* margin: var(--space-xl) 0; */
   display: flex;
   flex-direction: column;
   width: 50vw;
   height: auto;
   color: var(--dagg);
-
 }
-
-
 
 .container-karusell {
   display: flex;
@@ -292,20 +278,7 @@ li {
 
 .card:nth-child(4) {
   background-image: url(./images/bild4.jpg);
-  
 }
-
-/* .card:hover {
-  background-color: var(--dagg);
-  background-image: none;
-  color: var(--barr);
-  display: flex;
-  flex-direction: column;
-  width: 400px;
-  height: 300px;
-  padding: 25px 25px 35px 25px;
-  justify-items: baseline;
-} */
 
 .bubbles {
   display: flex;
@@ -343,7 +316,6 @@ li {
   gap: var(--space-xs);
 }
 
-
 .bubbleround {
   display: flex;
   border-radius: 100%;
@@ -353,13 +325,8 @@ li {
   opacity: 65%;
   align-items: center;
   justify-content: center;
-  /* border: 1px solid var(--barr); */
   transition: all 500ms;
 }
-
-/* .bubbleround:hover {
-  background-color: var(--viol);
-} */
 
 .plus {
   background-image:url(./images/plus.svg);
@@ -384,14 +351,10 @@ li {
   background-image: url(./images/Hållbarthet.svg);
 }
 
-
-
 .section {
   margin: var(--space-xl) var(--space-lg);
   display: flex;
   flex-direction: column;
-  
-
   
 }
 .rubrik {
@@ -400,7 +363,6 @@ li {
   flex: 1 0 0;
   height: auto;
   width: auto;
-  
 }
 
 .buttonSeeMore {
@@ -446,7 +408,6 @@ li {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-
 }
 
 .imgPopular {
@@ -481,6 +442,7 @@ li {
 .imageMerch:hover {
   transform: scale(1.1);
 }
+
 .heart{
   position: absolute;
   top: 25px;
@@ -594,7 +556,6 @@ li {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-
 }
 
 #head {
@@ -606,14 +567,12 @@ li {
   height: 1px;
   margin: var(--space-md) 0;
   margin-bottom: var(--space-lg);
-
 }
 
 form {
   display: flex;
   flex-direction: row;
   justify-items: right;
-
 }
 
 input[type=email], select {
