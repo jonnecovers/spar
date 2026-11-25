@@ -83,6 +83,7 @@ h2 {
   line-height: 130%;
   font-weight: 400;
   opacity: 75%;
+  
 }
 
 h3 {
@@ -409,6 +410,7 @@ li {
 .rubrikLine {
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
 
 .namePrice {
