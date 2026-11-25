@@ -12,8 +12,7 @@ require_once (__DIR__ . '/data.php');
         name="SPÅR"
         content="A sustainable brand for shoes and more."
         />
-        <link rel="stylesheet" href="stylej.css" />
-        <script src="scriptj.js" defer></script>
+        <link rel="stylesheet" href="style.css" />
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&display=swap" rel="stylesheet">
@@ -27,7 +26,7 @@ require_once (__DIR__ . '/data.php');
             <header class="siteHeader">
         
                 <div class="container-header">
-                    <a class="logo" href="indexj.html">SPÅR</a>
+                    <a class="logo" href="index.php">SPÅR</a>
                     <nav>
                     <a href="http://localhost:8000/indexj.php">Produkter</a>
                     <a href="http://localhost:8000/indexj.php">Kategorier</a>
@@ -41,7 +40,7 @@ require_once (__DIR__ . '/data.php');
                             <div class="searchpic"></div>
                         </div>
                     <a href="checkout.html"><img src="./images/Korg.svg" alt="shopping cart" style="width:20px;height:20px;"></a>
-                    <a href="http://localhost:8000/indexj.php">EN / SV</a>
+                    <a href="http://localhost:8000/index.php">EN / SV</a>
                     </nav>
                 </div>    
             </header>
@@ -56,8 +55,8 @@ require_once (__DIR__ . '/data.php');
                             <li class="bubble1"><img src="./images/Group 16.svg"alt="icon">10:00 - 16:00</li>
                             <li class="bubble1"><img src="./images/Group 1.svg"alt="icon">Mässans Gata, Göteborg</li>
                         </ul>
-                        <a class="button" href="http://localhost:8000/indexj.php">Anmäl dig till eventet</a>
-                        <a class="button2" href="http://localhost:8000/indexj.php">Utforska REGAIN</a>
+                        <a class="button" href="http://localhost:8000/index.php">Anmäl dig till eventet</a>
+                        <a class="button2" href="http://localhost:8000/index.php">Utforska REGAIN</a>
                     </div>
                 </div>
             </section>
@@ -96,7 +95,7 @@ require_once (__DIR__ . '/data.php');
                         <h2>Bär spåret vidare. Skor, klocka och huvdvårdskit.</h2>
                     </div>
                     <div>
-                        <a class="buttonSeeMore" href="http://localhost:8000/indexj.php">Utforska alla produkter</a>
+                        <a class="buttonSeeMore" href="http://localhost:8000/index.php">Utforska alla produkter</a>
                     </div>
                </article> 
 
@@ -117,7 +116,7 @@ require_once (__DIR__ . '/data.php');
                                 <h2><?php echo $popular['price']?></h2>
                             </div>
                             <h2><?php echo $popular['text']?></h2>
-                            <a class="button" href="http://localhost:8000/indexj.php">Lägg till i varukorgen</a>
+                            <a class="button" href="http://localhost:8000/index.php">Lägg till i varukorgen</a>
                     </div>
 
                     <?php } ; ?>
@@ -132,7 +131,7 @@ require_once (__DIR__ . '/data.php');
                         <h2>Bär spåret vidare. Klocka, flaska och kroppslotion i begränsad upplaga.</h2>
                     </div>
                     <div>
-                        <a class="buttonSeeMore" href="http://localhost:8000/indexj.php">Utforska alla produkter</a>
+                        <a class="buttonSeeMore" href="http://localhost:8000/index.php">Utforska alla produkter</a>
                     </div>
                </article> 
 
@@ -156,7 +155,7 @@ require_once (__DIR__ . '/data.php');
                                 <h2><?php echo $merch['price']?></h2>
                             </div>
                             <h3><?php echo $merch['text']?></h3>
-                            <a class="button" href="http://localhost:8000/indexj.php">Lägg till i varukorgen</a>
+                            <a class="button" href="http://localhost:8000/index.php">Lägg till i varukorgen</a>
                     </div>
 
                     <?php } ; ?>
