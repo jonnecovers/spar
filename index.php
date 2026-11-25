@@ -109,7 +109,7 @@ require_once (__DIR__ . '/data.php');
 
                     <div class="cardPopular">
                             <div class="containerImg">
-                                <div class="imgPopular"><img src=" <?php echo $popular['img'] ?>" alt="shopping cart" style="width:auto;height:400px;"></div>
+                                <div class="imgPopular"><img src=" <?php echo $popular['img'] ?>" alt="shopping cart" style="width:auto;height:441px;"></div>
                             </div>
                             <div class="namePrice">
                                 <h4><?php echo $popular['name']?></h4>
@@ -146,7 +146,7 @@ require_once (__DIR__ . '/data.php');
                     <div class="cardPopular">
                             <div class="containerImgMerch">
                                 <div class="imgMerch">
-                                    <div class="imageMerch"><img src=" <?php echo $merch['img'] ?>" alt="shopping cart" style="width:auto;height:441px;"></div>
+                                    <div class="imageMerch"><img src=" <?php echo $merch['img'] ?>" alt="shopping cart" style="width:441px;height:auto;"></div>
                                     <div class="heart"><img src="./images/Heart.svg"></div>
                                 </div>
                             </div>
@@ -155,7 +155,7 @@ require_once (__DIR__ . '/data.php');
                                 <h2><?php echo $merch['price']?></h2>
                             </div>
                             <h3><?php echo $merch['text']?></h3>
-                            <a class="button" href="http://localhost:8000/index.php">Lägg till i varukorgen</a>
+                            <a class="button" href="http://localhost:8000/indexj.php">Lägg till i varukorgen</a>
                     </div>
 
                     <?php } ; ?>

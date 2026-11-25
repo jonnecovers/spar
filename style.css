@@ -259,7 +259,10 @@ li {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background-image: url(./images/bild1.png);
+  background-image: url(./images/Ursprung.png);
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
   min-width: 400px;
   height: 500px;
   padding: 25px 25px 35px 25px;
@@ -269,15 +272,18 @@ li {
 }
 
 .card:nth-child(2) {
-  background-image: url(./images/bild2.png);
+  background-image: url(./images/Hallbarhet.png);
 }
 
 .card:nth-child(3) {
-  background-image: url(./images/bild3.png);
+  background-image: url(./images/Community.png);
 }
 
 .card:nth-child(4) {
-  background-image: url(./images/bild4.jpg);
+  background-image: url(./images/Innovation.png);
+}
+.card:nth-child(5) {
+  background-image: url(./images/Framtid.png);
 }
 
 .bubbles {
@@ -428,11 +434,15 @@ li {
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
 }
 
 .imgMerch {
   position: relative;
   overflow: hidden;
+  width: 441px;
+  height: 441px;
+
 }
 
 .imageMerch {

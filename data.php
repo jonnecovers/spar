@@ -4,7 +4,7 @@ $cards = [
     [
     'name' => 'Ursprung',
     'text' => 'En fråga som blev början på SPÅR',
-    'img' => './images/bild1.png',
+    'img' => './images/Ursprung.png',
     'icon' => './images/Ursprung.svg'
     ],
 
@@ -39,47 +39,47 @@ $cards = [
 
 $populars = [
     [
-    'name' => 'Steady Run 01',
+    'name' => 'Steady Stride 01',
     'text' => 'Built to keep going',
-    'img' => './images/949882a566fac47f2e09af635fc178f96fef150b.png',
+    'img' => './images/bestShoe.png',
     'price' => '1399 kr'
     ],
 
     [
-    'name' => 'Steady Watch 01',
+    'name' => 'Steady Track 01',
     'text' => 'Every step, on track',
-    'img' => './images/watch.png',
-    'price' => '1399 kr'
+    'img' => './images/bestWatch.png',
+    'price' => '999 kr'
     ],
 
     [
     'name' => 'Steady Care 01',
     'text' => 'Skin that keeps up',
-    'img' => './images/care.png',
-    'price' => '1399 kr'
+    'img' => './images/bestSkin.png',
+    'price' => '699 kr'
     ]
 
 ];
 
 $merches = [
     [
-    'name' => 'SPÅR Klocka',
-    'text' => 'Smartklocka som följer puls, steg och dina träningspass',
-    'img' => './images/klocka.png',
+    'name' => 'SPÅR Keps',
+    'text' => 'Lätt keps i återvunnet material för löprundan',
+    'img' => './images/merchCap.png',
     'price' => '299 kr'
     ],
 
     [
     'name' => 'SPÅR Flaska',
     'text' => 'Återvunnet rostfritt stål med bärögla (500 ml)',
-    'img' => './images/flaska.png',
+    'img' => './images/merchBottle.png',
     'price' => '349 kr'
     ],
 
     [
-    'name' => 'SPÅR Kroppslotion',
-    'text' => 'Återfuktande lotion för huden efter träningen',
-    'img' => './images/lotion.png',
+    'name' => 'SPÅR Väska',
+    'text' => 'Rymlig väska i återvunnet material för gym och vardag',
+    'img' => './images/merchBag.png',
     'price' => '199 kr'
     ]
 
