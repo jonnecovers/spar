@@ -193,6 +193,7 @@ li {
 .button {
   display: inline-block;
   margin-right: var(--space-sm);
+  margin-top: var(--space-xs);
   padding: var(--space-s) var(--space-sm);
   background-color: var(--skott);
   color: var(--barr);
@@ -414,6 +415,8 @@ li {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin-top: var(--space-xs);
+  margin-bottom: var(--space-xs);
 }
 
 .imgPopular {
